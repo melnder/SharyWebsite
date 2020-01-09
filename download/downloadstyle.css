@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  flex-direction: vertical;
+}
+
+.download-title {
+  margin-top: 10%;
+  color: red;
+  font-size: 20px;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+}
+
+.first-card {
+  background-color: red;
+  padding: 15px;
+}
+
+.second-card {
+  background-color: red;
+  padding: 15px;
+}
+
+.ios-download {
+  font-size: 14px;
+  color: white;
+}
+
+.android-download {
+  font-size: 14px;
+  color: white;
+}
