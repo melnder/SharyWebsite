@@ -2,39 +2,46 @@
 <html>
   <head>
     <title>Shary</title>
+    <link rel="stylesheet" href="downloadstyle.css"/>
+    <link rel="stylesheet" href="../header/headerstyle.css"/>
     <style>
        *{
           margin: 0px;
           padding: 0px;
           box-sizing: border-box;
-          font-family: "Comic Sans MS", cursive, sans-serif;
+          font-family: "Montserrat", sans-serif;
         }
     </style>
-    <link rel="stylesheet" href="downloadstyle.css"/>
-    <link rel="stylesheet" href="../header/headerstyle.css"/>
   </head>
   
   <body>
     <header>
       <nav>
-          <a class="logo" href="index.html">Shary</a>
+          <a class="logo">Shary</a>
           <ul class="nav-links">
             <li><a href="../index.html">Hem</a></li>
-            <li><a href="download/download.html">Ladda ned</a></li>
-            <li><a href="../profile/profile.html">Profil</a></li>
+            <li><a href="download.html">Ladda ned</a></li>
             <li><a href="../about/about.html">Om oss</a></li>
           </ul>
-          <button class="button"><span>Logga in </span></button>
+          <a id="signinbutton" href="../profile/profile.html" class="button"><span>Logga in </span></a>
       </nav>
     </header>
     <div class="main">
         <h1 class="download-title">Ladda ned Shary till IOS eller Android</h1>
         <div class="card-holder">
-          <div class="first-card">
-            <h3 class="ios-download">Ladda ned till IOS</h3>
-          </div>
-         <div class="second-card">
-            <h3 class="android-download">Ladda ned till Android</h3>
+          <div id="first" class="card">
+            <h3 id="ios-download" class="download-text">Ladda ned till IOS</h3>
+            <div class="logo-holder">
+              <img class="center" src="../assets/sharytransparent.png" alt="Preview"/>
+            </div>
+            <a id="ios-download-button" href="https://www.apple.com/se/ios/app-store/" class="button"><span>Ladda ned </span></a>
+         </div>
+         <div id="second" class="card">
+            <h3 id="android-download" class="download-text">Ladda ned till Android</h3>
+            <div class="logo-holder">
+              <img class="center" src="../assets/sharytransparent.png" alt="Preview"/>
+           </div>
+           <a id="android-download-button" href="https://play.google.com/store?hl=sv" class="button"><span>Ladda ned </span></a>
          </div>
         </div>
     </div>

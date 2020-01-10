@@ -1,38 +1,62 @@
 .main {
   display: flex;
   box-sizing: border-box;
-  justify-content: space-around;
-  flex-direction: vertical;
+  flex-flow: column;
 }
 
 .download-title {
-  margin-top: 10%;
+  margin-top: 7%;
+  text-align: center;
   color: red;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .card-holder {
   display: flex;
-  justify-content: space-around;
-  flex-flow: row;
+  justify-content: center;
+  flex-flow: row nowrap;
 }
 
-.first-card {
+.card {
+  display: flex;
+  flex-flow: column;
   background-color: red;
-  padding: 15px;
+  padding: 15px 20px;
+  margin: 50px 40px;
+  width: 25%;
+  border-radius: 15px;
 }
 
-.second-card {
-  background-color: red;
-  padding: 15px;
-}
-
-.ios-download {
-  font-size: 14px;
+.download-text {
+  text-align: center;
+  font-size: 18px;
   color: white;
 }
 
-.android-download {
-  font-size: 14px;
-  color: white;
+.logo-holder {
+  display: inline;
+}
+
+.logo-on-card {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+#ios-download-button {
+  align-self: center;
+  margin-top: 30px;
+}
+
+#android-download-button {
+  align-self: center;
+  margin: 30px;
+}
+
+.center {
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 23%;
 }

@@ -1,0 +1,12 @@
+.hero {
+  background: url("../assets/velkomentilvaratorminge.png");
+  height: 33%;
+  width: 100%;
+}
+
+.hero-title {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  color: green;
+}

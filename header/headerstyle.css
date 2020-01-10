@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+header {
+  position: static;
+}
+
 nav {
   background: red;
   display: flex;
@@ -12,12 +18,14 @@ nav {
   letter-spacing: 3px;
   text-decoration: none;
   padding-bottom: 1%;
+  cursor: default;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 40%;
+  margin-left: 10%;
 }
 
 nav ul li {
@@ -25,7 +33,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  font-size: 15px;
+  text-shadow: 3px 3px 4px #000;
 }
 
 nav ul li a {
